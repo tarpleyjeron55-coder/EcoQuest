@@ -1,0 +1,44 @@
+{
+  "name": "ecoquest",
+  "version": "1.0.0",
+  "description": "Expo React Native prototype for the EcoQuest mobile app.",
+  "main": "index.ts",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarpleyjeron55-coder/EcoQuest.git"
+  },
+  "keywords": [
+    "ecoquest",
+    "react-native",
+    "expo",
+    "sustainability"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarpleyjeron55-coder/EcoQuest/issues"
+  },
+  "homepage": "https://github.com/tarpleyjeron55-coder/EcoQuest#readme",
+  "dependencies": {
+    "expo": "^56.0.4",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-native": "^0.85.3",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}
