@@ -15,8 +15,18 @@
     "android": {
       "package": "com.ecoquest.app",
       "adaptiveIcon": {
-        "backgroundColor": "#0F5132"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#001C4F"
       }
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#001C4F"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }

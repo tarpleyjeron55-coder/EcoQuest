@@ -4,11 +4,11 @@ This prototype implements the flows that can be done locally in Expo. To move to
 
 ## App branding assets
 
-- App icon source artwork, ideally vector or 1024 x 1024 PNG.
-- Android adaptive icon foreground, 432 x 432 PNG with safe-area padding.
-- Android adaptive icon background color or background image.
-- iOS icon export, 1024 x 1024 PNG, no transparency.
-- Splash screen artwork or logo, preferably centered on a solid brand color.
+- App icon source artwork, ideally vector or 1024 x 1024 PNG. Initial repository asset: `assets/icon.png`.
+- Android adaptive icon foreground, 432 x 432 PNG with safe-area padding. Initial repository asset: `assets/adaptive-icon.png`.
+- Android adaptive icon background color or background image. Initial color: `#001C4F`.
+- iOS icon export, 1024 x 1024 PNG, no transparency. Initial repository asset: `assets/icon.png`.
+- Splash screen artwork or logo, preferably centered on a solid brand color. Initial repository asset: `assets/splash.png`.
 - Brand colors with contrast-approved light and dark variants.
 - App store screenshots or design comps for phone sizes.
 - App store short description, long description, keywords, support URL, and privacy policy URL.
@@ -72,3 +72,12 @@ The current prototype mocks these pieces and does not yet perform real device or
 - Push notifications.
 - Real Google Maps rendering.
 - Production 3D avatar rendering.
+
+## Current icon files
+
+- `assets/icon.png` - Expo app icon for iOS and general app metadata.
+- `assets/adaptive-icon.png` - Android adaptive icon foreground.
+- `assets/favicon.png` - Web favicon.
+- `assets/splash.png` - Splash screen artwork.
+
+If you have the original high-resolution icon file, replace `assets/icon.png` with that source and regenerate the other exports from it.
