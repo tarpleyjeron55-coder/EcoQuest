@@ -29,8 +29,8 @@
   "homepage": "https://github.com/tarpleyjeron55-coder/EcoQuest#readme",
   "dependencies": {
     "expo": "^56.0.4",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "react-native": "^0.85.3",
     "react-native-web": "^0.21.2"
   },
