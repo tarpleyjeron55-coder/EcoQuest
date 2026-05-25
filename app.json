@@ -9,9 +9,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ecoquest.app"
     },
     "android": {
+      "package": "com.ecoquest.app",
       "adaptiveIcon": {
         "backgroundColor": "#0F5132"
       }

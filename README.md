@@ -4,7 +4,8 @@ EcoQuest is a mobile app concept that turns everyday climate-positive actions in
 
 ## What is included
 
-- A static Expo prototype with tabs for Home, Onboarding, Feed, Map, Shop, and Profile.
+- An interactive local Expo prototype with tabs for Home, Onboarding, Feed, Map, Shop, and Profile.
+- Local state for onboarding choices, mock photo submissions, AI/moderation status, points, streaks, feed reactions, wardrobe unlocks, and profile stats.
 - Seed data for daily tasks, weekly challenges, wardrobe items, tips, badges, and local feed posts.
 - Product requirements and architecture notes for avatar customization, photo verification, geolocation, moderation, rewards, and privacy.
 - Low-fidelity screen mockups for the character creator, task home, local feed, map, wardrobe, and profile.
@@ -32,7 +33,8 @@ Then open the Expo project on iOS, Android, or web from the Expo CLI.
 - [Product requirements](docs/product-requirements.md)
 - [Architecture notes](docs/architecture.md)
 - [Screen mockups](docs/screen-mockups.md)
+- [Asset and service checklist](docs/asset-checklist.md)
 
 ## MVP scope
 
-The current app is a visual and interaction prototype. Production implementation still requires authentication, persistent storage, photo upload, ML verification, moderation tooling, map SDK integration, push notifications, and a real 3D avatar pipeline.
+The current app is an in-memory interaction prototype. Production implementation still requires authentication, persistent storage, real camera/photo upload, ML verification, moderation tooling, map SDK integration, push notifications, native app assets, and a real 3D avatar pipeline.
